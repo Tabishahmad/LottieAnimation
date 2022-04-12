@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
+        //Test one
         binding.anim.playAnimation()
 
         binding.anim.addAnimatorListener(object :Animator.AnimatorListener{
